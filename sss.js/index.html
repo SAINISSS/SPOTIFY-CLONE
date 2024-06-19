@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPOTIFY CLONE</title>
+</head>
+
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">   -->
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <nav>
+    <ul>
+      <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </nav>
+  <h1> TOP HITS PUNJABI</h1>
+  <div class="container">
+    <div class="songList">
+     
+      <div>
+        <div class="songitem">
+          <img src="covers/1.jpg" alt="1">
+          <span class="songname">Let Me Love You</span>
+          <span class="songlistplay"><span class="timestamp"> <i id="1" class="far songitemplay fa-2x fa-play-circle  "></i></span></span>
+        </div>
+        <div class="songitem">
+          <img src="covers/1.jpg" alt="1">
+          <span class="songname">Let Me Love You</span>
+          <span class="songlistplay"><span class="timestamp"> <i id="2" class="far songitemplay fa-2x fa-play-circle  "></i></span></span>
+        </div>
+        <div class="songitem">
+          <img src="covers/1.jpg" alt="1">
+          <span class="songname">Let Me Love You</span>
+          <span class="songlistplay"><span class="timestamp"> <i id="3" class="far songitemplay fa-2x fa-play-circle  "></i></span></span>
+        </div>
+        <div class="songitem">
+          <img src="covers/1.jpg" alt="1">
+          <span class="songname">Let Me Love You</span>
+          <span class="songlistplay"><span class="timestamp"><i id="4" class="far songitemplay fa-2x fa-play-circle  "></i></span></span>
+        </div>
+        <div class="songitem">
+          <img src="covers/1.jpg" alt="1">
+          <span class="songname">Let Me Love You</span>
+          <span class="songlistplay"><span class="timestamp"> <i id="5" class="far songitemplay fa-2x fa-play-circle  "></i></span></span>
+        </div>
+        <div class="songitem">
+          <img src="covers/1.jpg" alt="1">
+          <span class="songname">Let Me Love You</span>
+          <span class="songlistplay"><span class="timestamp"> <i id="6" class="far songitemplay fa-2x fa-play-circle  "></i></span></span>
+        </div>
+        <div class="songitem">
+          <img src="covers/1.jpg" alt="1">
+          <span class="songname">Let Me Love You</span>
+          <span class="songlistplay"><span class="timestamp"> <i id="7" class="far songitemplay fa-2x fa-play-circle  "></i></span></span>
+        </div>
+      </div>
+    </div>
+    <div class="songBanner"></div>
+  </div>
+  <div class="bottom">
+    <input type="range" name="range" id="myprogressbar" value="0" min="0" max="100">
+    <div class="icons">
+      <!-- fontasomicons -->
+      <i id="previous" class="fas fa-3x fa-step-backward"></i>
+     <i id="masterplay" class= "far fa-3x fa-play-circle "></i>
+      <i id="forward"  class="fas fa-3x fa-step-forward"></i>
+
+
+    </div>
+    <div class="songinfo">
+      <img src="playing.gif" width="42px" alt="" id="gif"><span id="mastersongname">salam</span>
+    </div>
+  </div>
+</body>
+<script src="https://kit.fontawesome.com/7b7c446dbc.js" crossorigin="anonymous"></script>
+<script src="server.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
+<!-- </script> -->
+
+</html>

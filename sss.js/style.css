@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+body {
+    background-color: wheat;
+    max-height: 100vh;
+}
+
+* {
+    max-height: 100vh;
+
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    font-family: "Varela Round", sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+.brand img {
+    width: 44px;
+    margin: 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    margin: 43px auto;
+    margin-top: 1px;
+
+    width: 75%;
+    border-radius: 12px;
+    background-image: url("1112077-sidhu-moose-wala-on-x-i-work-hard-for-this-i-want-you-to-know-that-moosetape.jpg");height: 70vh;width:75%;
+
+}
+ h1{
+    color: black;
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+  /* padding-right: 1000px; */
+  height: 35px;
+  
+    /* color: whitesmoke; */
+}
+
+.bottom {
+    background-color: black;
+    position: sticky;
+    height: 80px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    cursor: pointer;
+    padding: 0 10px;
+
+}
+
+#myprogressbar {
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songitem{
+height: 50px;
+display: flex;
+background-color: transparent;
+color: wheat;
+width: 80%;
+margin: 12px 10px;
+justify-content: space-between;
+align-items: center;
+width: 300px;
+padding-right: 20px;
+border-radius: 10px;
+padding-top: 7px;
+}
+
+.songitem img{
+    height: 50px;
+    width: 50px;
+
+}
+.songitem i{
+    cursor: pointer;
+    /* padding: 0 90px; */
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: "Varela Round", sans-serif;
+
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width:1172px){
+    .container{
+        background-image: none;
+        background-color: black;
+         width: 80vw;
+        
+    }
+}
